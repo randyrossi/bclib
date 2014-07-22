@@ -92,6 +92,8 @@ int run_tests() {
     free(publicB58U);
     free(privateB58C);
     free(publicB58C);
+
+    return 0;
 }
 
 int main(int argc,char* argv[]) {
